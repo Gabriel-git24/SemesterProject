@@ -1,2 +1,6 @@
 # SemesterProject
 FC25 player attribute classification
+
+This project focuses on developing machine learning models to classify football players into their primary positions (goalkeeper, defender, midfielder, and forward) based on their in-game attributes and performance metrics across various top-tier leagues. The main goal was to analyze whether player statistics could reliably predict positions and to identify which attributes are most important for each role.
+
+The models, specifically Random Forest classifiers with GridSearchCV for hyperparameter tuning, were trained and evaluated on league-specific data to account for potential stylistic differences between competitions. The results showed that while goalkeepers could not be perfectly identified due to their unique skill set, classifying outfield positions presented varying degrees of difficulty depending on the league. Midfielders, in particular, displayed the most variability due to overlapping attributes with other positions. This work offers valuable insights into how positional roles are statistically expressed in different football leagues and can inform player recruitment, tactical analysis, and performance evaluation in professional football.
