@@ -1,0 +1,7 @@
+User will need to import the following python libraries for this project:
+pandas
+matplotlib.pyplot
+seaborn
+sklearn train_test_split, OneHotEncoder, StandardScaler, RandomForestClassifier
+re (regular expressions)
+pickle
